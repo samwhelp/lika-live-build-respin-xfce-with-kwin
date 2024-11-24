@@ -27,7 +27,20 @@ pulseaudio
 
 
 ##
-## ## Package / Desktop Environment
+## ## Package / Window Manager / Kwin
+##
+
+#kwin-wayland
+kwin-x11
+kwin-addons
+kwin-common
+kwin-data
+
+
+
+
+##
+## ## Package / Extra
 ##
 
 accountsservice
