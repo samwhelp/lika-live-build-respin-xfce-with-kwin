@@ -1,0 +1,44 @@
+
+
+##
+## # Desktop Environment
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / Xfce
+##
+
+xfce4
+xfce4-goodies
+
+xfce4-power-manager
+xfce4-terminal
+mousepad
+
+xarchiver
+
+pavucontrol
+pulseaudio
+
+
+
+
+##
+## ## Package / Desktop Environment
+##
+
+accountsservice
+
+asunder
+atril
+
+
+gnome-disk-utility
+gnome-keyring
+gnome-nettool
+gnome-system-tools
+
+remmina

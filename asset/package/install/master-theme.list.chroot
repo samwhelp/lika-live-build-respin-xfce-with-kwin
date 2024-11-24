@@ -1,0 +1,74 @@
+
+
+##
+## # Theme
+##
+
+
+
+
+##
+## ## Package / Theme
+##
+
+gtk2-engines-murrine
+lxappearance
+
+
+
+
+##
+## ## Package / Theme / tango
+##
+
+tango-icon-theme
+
+
+
+
+##
+## ## Package / Theme / breeze
+##
+
+breeze-gtk-theme
+breeze-icon-theme
+breeze-cursor-theme
+xfwm4-theme-breeze
+
+
+
+
+##
+## ## Package / Theme / numix
+##
+
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
+
+
+
+
+##
+## ## Package / Theme / arc
+##
+
+arc-theme
+
+
+
+
+##
+## ## Package / Theme / papirus
+##
+
+papirus-icon-theme
+
+
+
+
+##
+## ## Package / Theme / greybird
+##
+
+greybird-gtk-theme

@@ -1,0 +1,26 @@
+
+
+##
+## # Media
+##
+
+
+
+
+##
+## ## Package / Media
+##
+
+ffmpeg
+
+
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-ugly
+gstreamer1.0-plugins-good
+
+
+soundconverter
+
+
+x265
+x264

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+
+
+
+##
+## ## Enable debug mode for Calamares
+##
+
+sed -i -e 's|^ *pkexec calamares|pkexec calamares -d|' /usr/bin/install-debian

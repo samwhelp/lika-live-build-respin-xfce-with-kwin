@@ -1,0 +1,27 @@
+
+
+##
+## # Xorg
+##
+
+
+
+
+##
+## ## Package / Xorg
+##
+
+xorg
+xserver-xorg-input-all
+xserver-xorg-video-all
+
+
+
+
+##
+## ## Package / Xorg / Helper
+##
+
+wmctrl
+xdotool
+xclip

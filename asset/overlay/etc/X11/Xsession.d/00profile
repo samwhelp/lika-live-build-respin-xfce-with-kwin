@@ -1,0 +1,45 @@
+
+
+################################################################################
+##
+## /etc/X11/Xsession.d/00profile
+##
+################################################################################
+
+
+
+
+################################################################################
+### Head: Profile
+##
+
+
+##
+## ## Profile
+##
+## > for lightdm login
+##
+
+
+## First read /etc/profile and .profile
+#test -f /etc/profile && . /etc/profile
+#test -f "$HOME/.profile" && . "$HOME/.profile"
+## Second read /etc/xprofile and .xprofile for X specific setup
+#test -f /etc/xprofile && . /etc/xprofile
+#test -f "$HOME/.xprofile" && . "$HOME/.xprofile"
+
+
+## 00profile
+[ -f /etc/profile ] && . /etc/profile
+[ -f ~/.profile ] && . ~/.profile
+
+[ -f /etc/xprofile ] && . /etc/xprofile
+
+
+## 98xprofile
+#[ -f ~/.xprofile ] && . ~/.xprofile
+
+
+##
+### Tail: Profile
+################################################################################

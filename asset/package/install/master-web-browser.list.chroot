@@ -1,0 +1,28 @@
+
+
+##
+## # Web Browser
+##
+
+
+
+
+##
+## ## Package / Web Browser / firefox
+##
+
+firefox-esr
+firefox-esr-l10n-zh-tw
+firefox-esr-l10n-zh-cn
+firefox-esr-l10n-ja
+firefox-esr-l10n-ko
+
+
+
+
+##
+## ## Package / Web Browser / chromium
+##
+
+#chromium
+#chromium-l10n

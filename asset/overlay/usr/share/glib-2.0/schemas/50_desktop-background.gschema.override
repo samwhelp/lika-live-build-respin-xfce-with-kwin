@@ -1,0 +1,7 @@
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/default.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/default.jpg'
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/default-login.jpg'

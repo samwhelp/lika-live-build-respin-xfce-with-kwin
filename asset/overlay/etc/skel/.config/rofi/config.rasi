@@ -1,0 +1,32 @@
+
+configuration {
+
+	show-icons:					true;
+	icon-theme:					"Papirus-Dark";
+	terminal:					"rofi-sensible-terminal";
+	cycle:						false;
+	hide-scrollbar:				true;
+	disable-history:			false;
+	modi:						"window,run,drun,combi,filebrowser";
+	combi-modi:					"window,drun";
+
+	kb-accept-entry:			"Return,KP_Enter,Control+j,Super_L+z";
+	kb-row-up:					"Up,Control+p,Super_L+a";
+	kb-row-down:				"Down,Control+n,Super_L+s";
+	kb-page-prev:				"Page_Up";
+	kb-page-next:				"Page_Down";
+	kb-cancel:					"Escape,Control+bracketleft,Super_L+q";
+
+	timeout {
+		action:					"kb-cancel";
+		delay:					0;
+	}
+
+	filebrowser {
+		directories-first:		true;
+		sorting-method:			"name";
+	}
+
+}
+
+@theme							"glue_pro_blue.rasi"

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Action
+Tooltip=Open in Sublime Text
+Name=Sublime Text
+Profiles=profile-one;
+Icon=sublime-text
+
+
+[X-Action-Profile profile-one]
+MimeTypes=all/all;
+Exec=subl %F
+Name=Default profile

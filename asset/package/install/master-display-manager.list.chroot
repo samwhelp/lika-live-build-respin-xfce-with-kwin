@@ -1,0 +1,19 @@
+
+
+##
+## # Display Manager
+##
+
+
+
+
+##
+## ## Package / Display Manager / lightdm
+##
+
+accountsservice
+
+light-locker
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings

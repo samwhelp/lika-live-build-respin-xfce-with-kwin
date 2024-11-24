@@ -1,0 +1,54 @@
+#!/bin/sh
+
+set -e
+
+
+
+
+##
+## ## Install dconf-cli
+##
+
+apt-get install dconf-cli
+
+
+
+
+##
+## ## Prepare dir
+##
+
+mkdir -p /etc/dconf/profile
+mkdir -p /etc/dconf/db
+
+
+
+
+##
+## ## Prepare dconf user profile
+##
+
+cat > /etc/dconf/profile/user << EOF
+#service-db:keyfile/user
+user-db:user
+system-db:local
+system-db:site
+system-db:distro
+
+EOF
+
+mkdir -p /etc/dconf/db/local.d
+mkdir -p /etc/dconf/db/site.d
+mkdir -p /etc/dconf/db/distro.d
+
+
+
+
+##
+## ## Update dconf db
+##
+## * /etc/dconf/db/
+##
+
+
+dconf update

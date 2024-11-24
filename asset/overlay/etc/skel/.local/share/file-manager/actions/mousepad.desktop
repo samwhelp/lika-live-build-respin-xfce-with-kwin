@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Action
+Tooltip=Open in Mousepad
+Name=Mousepad
+Profiles=profile-one;
+Icon=org.xfce.mousepad
+
+
+[X-Action-Profile profile-one]
+MimeTypes=text/plain;
+Exec=mousepad %F
+Name=Default profile
