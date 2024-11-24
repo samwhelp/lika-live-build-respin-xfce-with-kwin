@@ -30,11 +30,20 @@ pulseaudio
 ## ## Package / Window Manager / Kwin
 ##
 
+
 #kwin-wayland
 kwin-x11
 kwin-addons
 kwin-common
 kwin-data
+
+
+konsole
+yakuake
+dolphin
+kate
+kwrite
+#kdevelop
 
 
 
