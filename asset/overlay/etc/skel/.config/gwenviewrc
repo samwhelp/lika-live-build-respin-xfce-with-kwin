@@ -1,0 +1,15 @@
+[General]
+SideBarPage=operations
+
+[ImageView]
+MouseWheelBehavior=MouseWheelBehavior::Browse
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

@@ -1,0 +1,10 @@
+[Appearance]
+HideSkinBorders=true
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+ShowTabBar=false
+ShowTitleBar=false
+Width=70

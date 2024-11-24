@@ -1,0 +1,19 @@
+[Desktop Entry]
+DefaultProfile=Gruvbox.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[TabBar]
+ExpandTabWidth=true
+TabBarPosition=Bottom
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

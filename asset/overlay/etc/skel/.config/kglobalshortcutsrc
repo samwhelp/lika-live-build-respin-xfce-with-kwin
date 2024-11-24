@@ -302,7 +302,7 @@ toggle do not disturb=none,none,Toggle do not disturb
 [qterminal.desktop]
 Dropdown=none,none,Drop-down terminal
 _k_friendly_name=QTerminal
-_launch=Alt+Return\tAlt+Shift+A,none,QTerminal
+_launch=Ctrl+Alt+A,none,QTerminal
 
 [rofi-show-drun.desktop]
 _k_friendly_name=Rofi Show Drun
@@ -318,7 +318,7 @@ _launch=Alt+Shift+W,none,Rofi Show Window
 
 [sakura.desktop]
 _k_friendly_name=Sakura
-_launch=Ctrl+Alt+A,none,Sakura
+_launch=Alt+Return\tAlt+Shift+A,none,Sakura
 
 [screengrab.desktop]
 ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
