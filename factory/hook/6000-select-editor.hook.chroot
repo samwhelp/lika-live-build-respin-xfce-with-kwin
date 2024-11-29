@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+
+
+
+##
+## ## Select Editor
+##
+
+echo
+echo "Hook: running ${0}"
+echo
+echo "I:" update-alternatives --set editor /usr/bin/vim.basic
+echo
+update-alternatives --set editor /usr/bin/vim.basic
+echo
