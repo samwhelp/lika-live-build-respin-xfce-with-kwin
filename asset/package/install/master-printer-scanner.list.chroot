@@ -1,0 +1,114 @@
+
+
+##
+## # Printer Or Scanner
+##
+
+
+
+
+##
+## ## Package / Printer Or Scanner
+##
+
+system-config-printer
+printer-driver-all
+#printer-driver-gutenprint
+
+
+cups
+#cups-client
+#cups-daemon
+cups-filters
+
+
+sane-utils
+hplip
+hplip-gui
+
+
+simple-scan
+
+
+
+
+##
+## ## Link
+##
+## * https://wiki.debian.org/SystemGroups
+## * https://wiki.debian.org/Printing
+## * https://wiki.debian.org/SystemPrinting
+## * https://salsa.debian.org/live-team/calamares-settings-debian/-/blob/master/calamares/modules/users.conf?ref_type=heads#L12-L13
+##
+##
+
+
+
+
+##
+## > cups-client
+## > cups-daemon
+##
+## run
+##
+## ``` sh
+## grep lpadmin /etc/group
+## ```
+##
+## show
+##
+## ```
+## lpadmin:x:114:user
+## ```
+##
+## run
+##
+## ``` sh
+## grep lpadmin /var/lib/dpkg/info/*.postinst -R | grep addgroup | less
+## ```
+##
+## show
+##
+## ```
+## /var/lib/dpkg/info/cups-client.postinst:            addgroup --system lpadmin
+# /var/lib/dpkg/info/cups-daemon.postinst:        addgroup --system lpadmin
+## ```
+##
+
+
+
+
+##
+## > sane-utils
+##
+## run
+##
+## ``` sh
+## grep scanner /etc/group
+## ```
+##
+## show
+##
+## ```
+## scanner:x:117:saned,user
+## ```
+##
+## run
+##
+## ``` sh
+## grep scanner /var/lib/dpkg/info/*.postinst -R | grep addgroup | less
+## ```
+##
+## show
+##
+## ```
+## /var/lib/dpkg/info/colord.postinst:         addgroup --quiet --system scanner
+## /var/lib/dpkg/info/libsane1:amd64.postinst:     addgroup --quiet --system scanner || true
+## ```
+##
+## run
+##
+## ``` sh
+## grep scanner /var/lib/dpkg/info/*.postinst -R | less
+## ```
+##
