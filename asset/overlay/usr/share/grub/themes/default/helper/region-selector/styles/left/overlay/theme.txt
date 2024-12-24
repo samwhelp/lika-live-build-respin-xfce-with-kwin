@@ -1,0 +1,106 @@
+
+
+desktop-image: "background.jpg"
+desktop-color: "#808080"
+
+
+title-text:" "
+message-font: "Unifont Regular 16"
+message-color: "#eff0f1"
+
+
+terminal-top: "10%"
+terminal-height: "80%"
+terminal-left: "10%"
+terminal-width: "80%"
+terminal-border: "0"
+terminal-font: "Unifont Regular 18"
+terminal-box: "asset/terminal-box/terminal-box-*.png"
+
+
+
+
+#+ image {
+#	top = 12%
+#	height = 64
+#	left = 30%-64
+#	width = 64
+#
+#	file = "asset/info/logo.png"
+#}
+
+
+
+
++ label {
+	top = 30%-50
+	height = 40
+	left = 10%
+	width = 40%
+
+	text = "Operating System Selection"
+	font = "Unifont Regular 16"
+	color = "#eff0f1"
+	align = "center"
+}
+
+
+
+
++ boot_menu {
+	top = 30%
+	height = 40%
+	left = 10%
+	width = 40%
+
+	icon_width = 32
+	icon_height = 32
+
+	item_height = 48
+	item_padding = 12
+	item_icon_space = 12
+	item_spacing = 12
+
+	item_font = "Unifont Regular 24"
+	item_color = "#cccccc"
+
+	menu_pixmap_style = "asset/menu-box/menu-box-*.png"
+
+	selected_item_color= "#ffffff"
+	selected_item_pixmap_style= "asset/menu-selected/menu-selected-*.png"
+
+	scrollbar = false
+	#scrollbar_width = 12
+	#scrollbar_thumb = "asset/menu-slider/menu-slider-*.png"
+}
+
+
+
+
++ progress_bar {
+	top = 80%
+	height = 40
+	left = 10%
+	width = 40%
+
+	id = "__timeout__"
+
+	show_text = false
+	text_color = "white"
+
+	highlight_overlay = true
+	bar_style = "asset/progress-box/progress-box-*.png"
+	highlight_style = "asset/progress-bar/progress-bar-*.png"
+}
+
+
+
+
+#+ image {
+#	top = 80%+48
+#	height = 42
+#	left = 10%
+#	width = 40%
+#
+#	file = "asset/info/tips.png"
+#}
