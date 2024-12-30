@@ -20,7 +20,11 @@ qt6-gtk-platformtheme
 
 
 ##
+## ## Package / svg
+##
+## ``` sh
 ## apt-cache search svg | grep qt
+## ```
 ##
 
 libqt5svg5
@@ -30,16 +34,30 @@ libqt6svg6
 
 
 ##
-## kvantum
+## ## Package / kvantum
 ##
 
 qt5-style-kvantum
+#qt5-style-kvantum-themes
+#qt5-style-kvantum-l10n
 
 
 
 
 ##
-## qt5ct
+## ## Package / qt5ct
 ##
 
 qt5ct
+
+
+
+
+##
+## ## Package / qdbus
+##
+
+qtchooser
+qdbus
+#qdbus-qt5
+#qdbus-qt6
