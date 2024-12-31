@@ -191,7 +191,7 @@ master_var_init () {
 
 	DEFAULT_BUILD_RESPIN="xfce"
 	REF_BUILD_RESPIN="${REF_BUILD_RESPIN:=$DEFAULT_BUILD_RESPIN}"
-	REF_BUILD_RESPIN_OPTION_LIST="xfce kde lxqt mate gnome openbox bspwm i3 e17 minimal"
+	REF_BUILD_RESPIN_OPTION_LIST="xfce kde lxqt mate cinnamon gnome openbox bspwm i3 herbstluftwm e17 minimal"
 
 
 	##
