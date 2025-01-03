@@ -1,0 +1,50 @@
+
+
+##
+## # Network / Ultra
+##
+
+
+
+
+##
+## ## Package / Network / Tool
+##
+
+iw
+
+
+
+
+##
+## ## Package / Network / systemd-resolved
+##
+## ### Notice
+##
+## > if want to install package: [systemd-resolved]
+##
+## > fix building error, create hook file: [1001-create-resolv-conf.hook.chroot]
+##
+
+systemd-resolved
+
+
+
+
+##
+## ## Package / Network / Base
+##
+
+openconnect
+openvpn
+openvpn-systemd-resolved
+
+
+
+
+##
+## ## Package / Network / Network Manager
+##
+
+network-manager-openconnect-gnome
+network-manager-openvpn-gnome

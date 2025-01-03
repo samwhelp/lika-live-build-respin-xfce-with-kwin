@@ -11,9 +11,8 @@
 ## ## Package / Network / Network Manager
 ##
 
+network-manager
 network-manager-gnome
-#network-manager-openconnect-gnome
-#network-manager-openvpn-gnome
 
 
 
