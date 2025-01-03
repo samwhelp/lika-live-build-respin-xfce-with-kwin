@@ -16,7 +16,7 @@ Theme=Papirus-Dark
 LookAndFeelPackage=com.github.varlesh.arc-dark
 ShowDeleteCommand=true
 SingleClick=false
-widgetStyle=kvantum-dark
+widgetStyle=kvantum
 
 [WM]
 activeFont=Sans Serif,10,-1,5,50,0,0,0,0,0
