@@ -8,5 +8,5 @@
 [Icon Theme]
 Name=Default
 Comment=Default cursor theme
-Inherits=breeze_cursors
+Inherits=breeze_cursors,Breeze
 Size=24
