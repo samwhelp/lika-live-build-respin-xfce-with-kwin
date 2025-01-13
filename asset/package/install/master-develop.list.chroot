@@ -13,9 +13,15 @@
 
 build-essential
 
-live-build
-
 debhelper
+
+live-build
+xorriso
+squashfs-tools
+genisoimage
+
+debootstrap
+parted
 
 dkms
 
