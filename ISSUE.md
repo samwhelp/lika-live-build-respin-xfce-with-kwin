@@ -18,3 +18,20 @@ Size=24
 ```
 
 > `Inherits=breeze_cursors,Breeze` add `Brezee` fallback, fix mouse right click on desktop.
+
+
+* `breeze_cursors` means `/usr/share/icons/breeze_cursors`
+* `Breeze` means `/usr/share/icons/breeze_cursors/index.theme: Name=Breeze`
+
+
+run
+
+``` sh
+grep '^Name=' /usr/share/icons/breeze_cursors/index.theme
+```
+
+show
+
+```
+Name=Breeze
+```
