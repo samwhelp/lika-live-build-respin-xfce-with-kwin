@@ -3,16 +3,16 @@ componentName:   debian
 welcomeStyleCalamares: true
 welcomeExpandingLogo: true
 windowExpanding: normal
-windowSize: 800px,580px
+windowSize: 800px,520px
 windowPlacement: center
 
 strings:
     productName:         Debian GNU/Linux
     shortProductName:    Debian
-    version:             13
-    shortVersion:        13
-    versionedName:       Debian 13
-    shortVersionedName:  Debian 13
+    version:             12 (bookworm)
+    shortVersion:        12
+    versionedName:       Debian 12 (bookworm)
+    shortVersionedName:  Debian 12
     bootloaderEntryName: Debian
     productUrl:          https://debian.org
     supportUrl:          https://www.debian.org/support
@@ -20,20 +20,18 @@ strings:
     releaseNotesUrl:     https://www.debian.org/releases/bookworm/releasenotes
     donateUrl:           https://www.debian.org
 
-sidebar: widget
-navigation: widget
-
 images:
     productLogo:         "debian-logo.png"
     productIcon:         "debian-logo.png"
     productWelcome:      "welcome.png"
+    # productWallpaper:  "wallpaper.png"
 
 slideshow:               "show.qml"
 
 style:
-   SidebarBackground:    "#26475b"
-   SidebarText:          "#FFFFFF"
-   SidebarTextCurrent:   "#fbfbfb"
-   SidebarBackgroundCurrent: "#265370"
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+   sidebarTextSelect:    "#292F34"
 
 slideshowAPI: 2

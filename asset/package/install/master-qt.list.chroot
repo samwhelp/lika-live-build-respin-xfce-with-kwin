@@ -11,8 +11,8 @@
 ## ## Package / Qt
 ##
 
-qt5-style-plugins
-qt5-gtk2-platformtheme
+#qt5-style-plugins
+#qt5-gtk2-platformtheme
 qt5-gtk-platformtheme
 qt6-gtk-platformtheme
 
@@ -58,6 +58,6 @@ qt5ct
 ##
 
 qtchooser
-qdbus
+#qdbus
 #qdbus-qt5
-#qdbus-qt6
+qdbus-qt6
